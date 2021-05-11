@@ -529,6 +529,7 @@ img {
   text-align: center;
   align-items: center;
   margin-top: 11px;
+  margin-right: 93px;
 }
 .join-title {
   padding: 0;
@@ -564,6 +565,58 @@ img {
 .join-link:hover,
 .join-link:focus {
   background: var(--accent-text-color);
+}
+
+/* Форма футер */
+
+.form {
+  width: 570px;
+  height: 86px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.subscribe {
+  display: block;
+  /* flex-direction: row; */
+}
+.form-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+  margin-bottom: 20px;
+}
+.email-form {
+  padding-top: 15px;
+  padding-left: 16px;
+  padding-bottom: 15px;
+  width: 358px;
+  height: 50px;
+  background-color: var(--secondary-background);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.button-form {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-text-color);
+  background: var(--accent-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
 }
 
 /* Portfolio */
